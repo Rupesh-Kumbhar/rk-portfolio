@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           new develop created
+          Now child rk branch created
         </p>
         <a
           className="App-link"
