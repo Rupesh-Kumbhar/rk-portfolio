@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          new dev and rk-branch created
+          new develop created
         </p>
         <a
           className="App-link"
