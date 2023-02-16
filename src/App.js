@@ -9,6 +9,7 @@ function App() {
         <p>
           new develop created
           Now child rk branch created
+          New branch rk 2 created
         </p>
         <a
           className="App-link"
