@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Contact from './Contact/contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           new develop created
@@ -19,7 +22,15 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+        <div>
+      <Router>
+        <Routes>
+            <Route path="/contact" component={Contact} />
+        </Routes>
+            
+      </Router>
+        </div>
     </div>
   );
 }

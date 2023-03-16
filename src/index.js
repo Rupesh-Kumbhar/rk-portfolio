@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './Navbar/navbar';
+import Contact from './Contact/contact';
+import Footer from './Footer/footer';
+import Education from './Education/education';
+import Internship from './Internship/Internship';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Navbar></Navbar>
+    <Education></Education>
+    <Internship></Internship>
+    <Contact></Contact>
+    <Footer></Footer>
   </React.StrictMode>
 );
 
