@@ -1,51 +1,49 @@
 import React from "react";
+import './../Footer/footer.css'
 
 function Footer() {
     return(
         <div className="col-sm-12 p-0 mt-5">
         <footer className="footer">
           <div className="container">
-            <div className="row">
-              <div className="col-md-4">
-                <h3>About Us</h3>
-                <p>
-                "Shop with confidence at our E-commerce store. Our team is dedicated to providing the best online shopping experience possible."
-                </p>
+            <div className="col-sm-12 row m-0 mb-5">
+              <div className="col-sm-12 p-0 text-center pb-5 ">
+                            <h3>My Socials !!</h3>
+                        </div>
+              <div className="col-sm-3 p-0 d-flex justify-content-center">
+                <a href='https://www.linkedin.com/in/rupesh-kumbhar-54a9b6184/' target='_blank' rel="noopener noreferrer" className="d-flex">
+                  <img src='/assets/logos/linkedin.svg' alt='' className="social-logos mr-2" />
+                  <span className="my-2">LinkedIn</span>
+                </a>
               </div>
-              <div className="col-md-4">
-                <h3>Contact Us</h3>
-                <p>Pune, 411037 </p>
-                <p>Maharashhtra, India</p>
-                <p>Phone: (+91) 92847 43488</p>
-                <p>Email: rp.kumbhar2001@gmail.com</p>
+              
+              <div className="col-sm-3 p-0 d-flex justify-content-center">
+                <a href='https://github.com/Rupesh-Kumbhar' target='_blank' rel="noopener noreferrer" className="d-flex">
+                  <img src='/assets/logos/github.svg' alt='' className="social-logos mr-2" />
+                  <span className="my-2">GitHub</span>
+                </a>
               </div>
-              <div className="col-md-4">
-                <h3>Follow Us</h3>
-                <ul className="social-media">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook">Facebook</i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter">Twitter</i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram">Instagram</i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-youtube">Youtube</i>
-                    </a>
-                  </li>
-                </ul>
+
+              <div className="col-sm-3 p-0 d-flex justify-content-center">
+                <a href='https://www.instagram.com/rupesh_kumbhar_/?igshid=ZDdkNTZiNTM%3D' target='_blank' rel="noopener noreferrer" className="d-flex">
+                  <img src='/assets/logos/instagram.svg' alt='' className="social-logos mr-2" />
+                  <span className="my-2">Instagram</span>
+                </a>
               </div>
+             
+              <div className="col-sm-3 p-0 d-flex justify-content-center">
+                <a href='https://www.facebook.com/rupesh.kumbhar.58173' target='_blank' rel="noopener noreferrer" className="d-flex">
+                  <img src='/assets/logos/facebook.svg' alt='' className="social-logos mr-2" />
+                  <span className="my-2">Facebook</span>
+                </a>
+              </div>
+
             </div>
-            <hr />
+            <div className="col-sm-12 p-0 text-center">
+            Made with <span className='footer_love wave'>&#10084;</span> by Rupesh
+            
+            {/* Made with <span style="color: #e25555;">❤</span> by Rupesh */}
+            </div>
           </div>
         </footer>
       </div>

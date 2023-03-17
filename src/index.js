@@ -8,6 +8,7 @@ import Contact from './Contact/contact';
 import Footer from './Footer/footer';
 import Education from './Education/education';
 import Internship from './Internship/Internship';
+import Home from './Home/home';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Navbar></Navbar>
+    <Home></Home>
     <Education></Education>
     <Internship></Internship>
     <Contact></Contact>
