@@ -5,10 +5,8 @@ import "./../Home/home.scss";
 function Home() {
     return (
         <div className="col-sm-12 p-0">
-            <div className="col-sm-8 p-0 mx-auto">
-                <h1 className=" mr-auto">
-                    Rupesh Kumbhar
-                </h1>             
+            <div className="col-sm-10 p-0 mx-auto">
+            
                 <h1 className="text-center my-5">
                     Home
                 </h1>
