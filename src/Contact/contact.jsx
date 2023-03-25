@@ -5,18 +5,18 @@ function Contact() {
     return(
         
         <div className="col-sm-12 pt-5">
-                    <div className="col-sm-12 pt-5 text-center">
-                        <h1>We can Connect !</h1>
-                    </div>
+            <div className="col-sm-12 text-center">
+                <h1>We can Connect !</h1>
+            </div>
 
-                    <div className="col-sm-9 pt-5 mx-auto  text-center">
-                        <h4>
-                            If you have any questions or would like to discuss Potential Job Opportunities or collaborations, I would be happy to connect with you and learn more.    
-                        </h4>
-                        <h4 className="mt-4">I am available to Get in Touch via Phone, Email</h4>
-                    </div>
+            <div className="col-sm-9 pt-5 mx-auto  text-center">
+                <h4>
+                    If you have any questions or would like to discuss Potential Job Opportunities or collaborations, I would be happy to connect with you and learn more.    
+                </h4>
+                <h4 className="mt-4">I am available to Get in Touch via Phone, Email</h4>
+            </div>
 
-                    <div className="col-sm-12 pt-5 justify-content-center">
+            <div className="col-sm-12 pt-5 justify-content-center">
                         <div className="col-sm-9 pt-5 mx-auto">
 
                         <div className="col-sm-12 pt-5 row m-0">
@@ -58,9 +58,19 @@ function Contact() {
                         </div> */}
                         
                         </div>
-                    </div>
+            </div>
 
-                    </div>
+            <div className="col-sm-12 p-0 justify-content-center mt-5">
+                <div className="text-center">
+                    <h1>Map</h1>
+                </div>
+                <div className="my-5">
+                    <iframe src="./location-map.html" width="100%" height="500px"></iframe>
+                </div>
+            </div>
+                    
+
+        </div>
     );
 }
 
