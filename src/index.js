@@ -10,6 +10,7 @@ import Education from './Education/education';
 import Internship from './Internship/Internship';
 import Home from './Home/home';
 import Projects from './college-projects/projects';
+import Skills from './skills/skills';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
     <Navbar></Navbar>
     <Home></Home>
     <Education></Education>
+    <Skills></Skills>
     <Projects></Projects>
     <Internship></Internship>
     <Contact></Contact>

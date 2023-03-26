@@ -10,19 +10,19 @@ function Internship(){
                 </h1>
 
                 <div className="col-sm-12 p-0 row m-0 ">
-                    <div className="col-sm-5 p-0">
+                    <div className="col-sm-5">
                         <div className="text-center">
                             <img src="assets/images/intern-img.jpg" alt="image" className="intern-img"/>
                         </div>
                     </div>
-                    <div className="col-sm-7 m-auto p-0">
-                        <div className="col-sm-12 m-auto">
+                    <div className="col-sm-7 m-auto ">
+                        <div className="col-sm-12 m-auto px-4">
                             <div className="intern-content-2 mb-2">
-                                FrontEnd Web Developer
+                                Front-End Web Developer
                             </div>
                             
-                            <div className="intern-content-1 mb-2">
-                                6 Months Full-Time Intership
+                            <div className="intern-content-1 mb-3">
+                                6 Months Full-Time Internship
                             </div>
 
                             <div class="col-sm-12 m-auto">
