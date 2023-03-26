@@ -3,8 +3,12 @@ import React from "react";
 import "./../Home/home.scss";
 
 function Home() {
+    
     return (
         <div className="col-sm-12 p-0">
+            <head>
+                <script src="/scripts/home-anim.js"></script>
+            </head>
             <div className="col-sm-10 p-0 mx-auto">
             
                 <h1 className="text-center my-5">
@@ -15,16 +19,16 @@ function Home() {
                 <div className="col-sm-7 m-auto p-0">
                     <div className="col-sm-8 m-auto">
                     <div className="home-content-1 mb-2">
-                        Hello, I am
+                        Hello <span className="wave">👋</span>, I am
                     </div>
 
                     <div className="home-content-2 mb-2">
                         Rupesh Kumbhar
                     </div>
                         <div class="typing-slider">
-                            <p>A Software Engineer</p>
-                            <p>Frontend Developer</p>
-                            <p>A Student</p>
+                            <p>A Software Engineer 🚀 </p>
+                            <p>Frontend Developer 👨‍💻 </p>
+                            <p>A Student 📚 </p>
                     </div>
 
                     </div>
@@ -32,10 +36,11 @@ function Home() {
 
                 <div className="col-sm-5 p-0">
                     <div>
+                        
                     <img
-                        src="assets/images/programming-man.svg"
+                        src="assets/images/home-img.svg"
                         alt="image"
-                        className="home-img"
+                        className="home-img animated"
                     />
                     </div>
                 </div>

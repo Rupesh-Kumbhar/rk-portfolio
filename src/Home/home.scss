@@ -85,3 +85,116 @@ $background: #FFF;
     }
   }
 }
+
+//emoji css
+
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+svg#freepik_stories-code-typing:not(.animated) .animable {
+  opacity: 0;
+}
+
+svg#freepik_stories-code-typing.animated #freepik--background-complete--inject-6 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideUp;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-code-typing.animated #freepik--Device--inject-6 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomIn;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-code-typing.animated #freepik--Plant--inject-6 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-code-typing.animated #freepik--Floor--inject-6 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideUp;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-code-typing.animated #freepik--speech-bubbles--inject-6 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomIn;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-code-typing.animated #freepik--Character--inject-6 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedRight;
+  animation-delay: 0s;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: inherit;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes lightSpeedRight {
+  from {
+    transform: translate3d(50%, 0, 0) skewX(-20deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: skewX(10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: skewX(-2deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
