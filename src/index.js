@@ -9,7 +9,7 @@ import Footer from './Footer/footer';
 import Education from './Education/education';
 import Internship from './Internship/Internship';
 import Home from './Home/home';
-import Projects from './college-projects/projects';
+import Projects from './my-projects/projects';
 import Skills from './skills/skills';
 
 
