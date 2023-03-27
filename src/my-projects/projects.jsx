@@ -1,5 +1,5 @@
 import React from "react";
-import './../college-projects/project.scss'
+import './project.scss'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
