@@ -38,14 +38,14 @@ function Skills() {
                     My Skills
                 </h1>
 
-                <h4 className="text-center my-5">
+                <h5 className="text-center my-5">
                     I am familiar with following Frameworks/Technologies                     
-                </h4>
+                </h5>
                 <div className="col-sm-12 p-0 row m-0 justify-content-evenly">
 
                     <div className="width-33">
-                        <h3 className="text-center mb-5">FrontEnd</h3>
-                        <div className="row m-0 justify-content-center border-right shadow-lg">
+                        <h4 className="text-center mb-5">FrontEnd</h4>
+                        <div className="row m-0 justify-content-center border-right transform-hover  shadow-lg">
                             {mySkillFrontName.map((skill, index) => (
                                 <div className="col-md-4 my-3 text-center" key={index}>
 
@@ -58,8 +58,8 @@ function Skills() {
                     </div>
 
                     <div className="width-33 ">
-                        <h3 className="text-center mb-5">Backend</h3>
-                        <div className="row m-0 justify-content-center border-right shadow-lg">
+                        <h4 className="text-center mb-5">Backend</h4>
+                        <div className="row m-0 justify-content-center border-right transform-hover  shadow-lg">
                             {mySkillBackName.map((skill, index) => (
                                 <div className="col-md-4 my-3 text-center" key={index}>
 
@@ -72,8 +72,8 @@ function Skills() {
                     </div>
 
                     <div className="width-33 ">
-                        <h3 className="text-center mb-5">Databases / Other</h3>
-                        <div className="row m-0 justify-content-center border-right shadow-lg">
+                        <h4 className="text-center mb-5">Databases / Other</h4>
+                        <div className="row m-0 justify-content-center border-right transform-hover  shadow-lg">
                             {mySkillDbOtherName.map((skill, index) => (
                                 <div className="col-md-4 my-3 text-center" key={index}>
 

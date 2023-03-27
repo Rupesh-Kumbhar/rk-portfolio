@@ -1,8 +1,8 @@
 import React from "react";
-import './project.scss'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-
+import EcomPro from "./spring-project/ecom-pro";
+import './../my-projects/project.scss'
 
 
 function Projects() {
@@ -15,16 +15,20 @@ function Projects() {
 
             <div className="col-sm-12 p-0">
             <div className="col-sm-10 mx-auto p-0">
-                <Tabs defaultActiveKey={2} id="uncontrolled-tab-example">
+                <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
+
                     <Tab eventKey={1} title="Spring">
-                        Spring Ecom Project
+                        <EcomPro></EcomPro>
                     </Tab>
+
                     <Tab eventKey={2} title="React">
                         My Portfolio React 
                     </Tab>
+
                     <Tab eventKey={3} title="Angular" >
                         MERN UI/UX
                     </Tab>
+
                     <Tab eventKey={4} title="College Projects" >
                         <ul>
                             <li>FY Sci-Tech</li>
