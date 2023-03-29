@@ -1,8 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Contact from './Contact/contact';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Navbar/navbar';
+import Footer from './Footer/footer';
+import Education from './Education/education';
+import Internship from './Internship/Internship';
+import Home from './Home/home';
+import Projects from './my-projects/projects';
+import Skills from './skills/skills';
 
 function App() {
   return (
@@ -23,14 +29,16 @@ function App() {
           Learn React
         </a>
       </header> */}
-        <div>
-      <Router>
-        <Routes>
-            <Route path="/contact" component={Contact} />
-        </Routes>
-            
-      </Router>
-        </div>
+
+      <Navbar></Navbar>
+      <Home></Home>
+      <Education></Education>
+      <Skills></Skills>
+      <Projects></Projects>
+      <Internship></Internship>
+      <Contact></Contact>
+      <Footer></Footer>
+      
     </div>
   );
 }
