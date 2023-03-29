@@ -50,3 +50,25 @@
 .nav-link:hover {
     color: #151875;
 }
+
+// media queries
+@media screen and (max-width: 576px) {
+
+    .skill-line-mb{
+      font-size: 16px;
+    }
+
+    .width-33 {
+        width: 100%;
+        padding: 0px;
+    }
+    .card-mb-width{
+        width: 80%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .skill-badge-width-mb{
+        width: 50% !important;
+    }
+  }
+  

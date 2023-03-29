@@ -34,7 +34,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="col-sm-5 p-0">
+                <div className="col-sm-5 p-0 img-margin-mb">
                     <div>
                         
                     <img
