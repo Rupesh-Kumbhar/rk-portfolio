@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Element } from 'react-scroll';
+// import { Link, animateScroll as scroll } from 'react-scroll';
 
 
 function Navbar(){
@@ -12,9 +13,7 @@ function Navbar(){
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        {/* <h3>Rupesh Kumbhar</h3> */}
                         <ul class="navbar-nav ">
-                        {/* me-auto mb-2 mb-lg-0 */}
                             <li class="nav-item">
                                 <a class="nav-link " aria-current="page" href="#">Home</a>
                             </li>
@@ -26,10 +25,20 @@ function Navbar(){
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
-                                {/* <Link to="/contact" smooth={true} duration={500}>Contact</Link> */}
                             </li>
-                        
-                            
+
+                            {/* <li class="nav-item">
+                                <Link class="nav-link" to="home" smooth={true} duration={500}>Home</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="education" smooth={true} duration={500}>Education</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="internship" smooth={true} duration={500}>Internship</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="contact" smooth={true} duration={500}>Contact</Link>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
