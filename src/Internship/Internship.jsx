@@ -17,7 +17,7 @@ function Internship(){
                     </div>
                     <div className="col-sm-7 m-auto ">
                         <div className="col-sm-12 m-auto px-4">
-                            <div className="intern-content-2 mb-2">
+                            <div className="intern-content-2 mb-2 mt-4">
                                 Front-End Web Developer
                             </div>
                             

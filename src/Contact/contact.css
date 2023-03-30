@@ -1,7 +1,23 @@
 /* Mobile Media Queries */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
     .phone-email-mb {
       margin-top: 10vh;
     }
-  }
+    .contact-text-mb-1 {
+      width: 85%;
+      margin: 0px auto;
+      font-size: 18px;
+      font-weight: 400;
   
+    }
+    .contact-text-mb-2 {
+      width: 85%;
+      margin: 0px auto;
+      font-size: 18px;
+      font-weight: 500;
+  
+    }
+    .no-padding-top-mb{
+      padding-top: 0% !important;
+    }
+  }

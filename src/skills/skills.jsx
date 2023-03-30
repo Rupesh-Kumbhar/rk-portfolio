@@ -61,7 +61,7 @@ function Skills() {
                         <h4 className="text-center my-5">Backend</h4>
                         <div className="row m-0 justify-content-center border-right transform-hover shadow-lg card-mb-width">
                             {mySkillBackName.map((skill, index) => (
-                                <div className="col-md-4 my-3 text-center" key={index}>
+                                <div className="col-md-4 my-3 text-center skill-badge-width-mb" key={index}>
 
                                     <img src={mySkillBackImg[index]} className="skills-img" alt={skill} />
                                     <h5 className="skill-name text-center mt-3">{skill}</h5>
@@ -75,7 +75,7 @@ function Skills() {
                         <h4 className="text-center my-5">Databases / Other</h4>
                         <div className="row m-0 justify-content-center border-right transform-hover shadow-lg card-mb-width">
                             {mySkillDbOtherName.map((skill, index) => (
-                                <div className="col-md-4 my-3 text-center" key={index}>
+                                <div className="col-md-4 my-3 text-center skill-badge-width-mb" key={index}>
 
                                     <img src={mySkillOtherImg[index]} className="skills-img" alt={skill} />
                                     <h5 className="skill-name text-center mt-3">{skill}</h5>
