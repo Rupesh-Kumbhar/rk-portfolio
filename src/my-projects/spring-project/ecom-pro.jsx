@@ -7,7 +7,7 @@ function EcomPro() {
             <h4 className="text-center mt-5 mb-3 ">Spring Ecom Project</h4>
 
             <div className="row m-0">
-                <div className="col-sm-4 p-0">
+                <div className="col-sm-4 p-0 project-card-mb">
                     <div className="card">
                         
                         <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
@@ -36,9 +36,20 @@ function EcomPro() {
                         <div class="modal-body">
                             <div className="col-sm-12 p-0 row m-0">
                                 <h5 className="sub-heading-pro mb-4">
-                                    An ECommerce project using Spring, React, Maven, Hibernate, and MySQL :
+                                    An ECommerce Project using Spring, React, Maven, Hibernate, and MySQL :
                                 </h5>
+
+                                <div className="col-sm-5 p-0 row m-0 display-in-mb">
+                                    <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                </div>
                             <div className="col-sm-7 p-0 row m-0 modal-content-scroll">
+                                <b className=" mb-2">
+                                    <b>Technologies Used : </b>
+                                </b>
+                                <h5 className="sub-heading-pro mb-4">
+                                    HTML,CSS,Bootstrap,MySQL,Spring,Hibernate, Spring Data JPA
+                                    Spring, React, Maven, Hibernate, and MySQL :
+                                </h5>
                                 <li className=" mb-4">
                                     <b>Front-end : </b>
                                      The front-end of the application is built using React, which is a popular JavaScript library for building user interfaces. React provides reusable UI components that can be used to create a responsive and dynamic web application.
@@ -74,21 +85,21 @@ function EcomPro() {
                                      Payment gateway integration is implemented using a payment gateway API such as RozarPay
                                 </li>
                             </div>
-                            <div className="col-sm-5 p-0 row m-0">
+                            <div className="col-sm-5 p-0 row m-0 hide-in-mb">
                                 <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
                             </div>
                             </div>
 
                         </div>
                         <div class="modal-footer justify-content-evenly">
-                            <div className="col-sm-12 p-0 row m-0">
-                                <div className=" col p-0 row m-0">
+                            <div className="col-sm-12 p-0 row m-0 not-display-flex-mb">
+                                <div className="col p-0 row m-0 width-mb-100">
                                     <button type="button" class="btn modal-btn w-auto mr-3">GitHub</button>
                                     <button type="button" class="btn modal-btn w-auto mr-3">Live Link</button>
                                     <button type="button" class="btn modal-btn w-auto">Demo Video</button>
 
                                 </div>
-                                <div className="col p-0 row m-0 justify-content-end">
+                                <div className="col p-0 row m-0 justify-content-end width-mb-100">
                                     <button type="button" class="btn btn-secondary w-auto" data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>

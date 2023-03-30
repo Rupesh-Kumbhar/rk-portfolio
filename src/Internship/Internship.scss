@@ -87,3 +87,31 @@ $background: #FFF;
     }
   }
 }
+
+//media queries
+@media screen and (max-width: 576px) {
+
+  .intern-content-2 {
+    font-weight: 600;
+    font-size: 34px;
+  }
+
+  .intern-content-1 {
+    color: #FB2E86;
+    font-size: 22px;
+  }
+
+  .contact-text-mb {
+    width: 85%;
+    margin: 0px auto;
+    font-size: 18px;
+    font-weight: 400;
+
+  }
+  .intern-img {
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 1px 0px 14px -6px #000;
+}
+}
