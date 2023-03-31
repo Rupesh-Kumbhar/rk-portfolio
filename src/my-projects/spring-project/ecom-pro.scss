@@ -52,6 +52,10 @@
 .display-in-mb{
     display: none;
 }
+.pro-card-border{
+    border-radius: 10px;
+}
+
 // media queries
 @media screen and (max-width: 576px) {
     .project-card-mb {
