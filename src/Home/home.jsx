@@ -27,7 +27,7 @@ function Home() {
                     </div>
                         <div class="typing-slider">
                             <p>A Software Engineer 🚀 </p>
-                            <p>Frontend Developer 👨‍💻 </p>
+                            <p>Fullstack Developer 👨‍💻 </p>
                             <p>A Student 📚 </p>
                     </div>
 
