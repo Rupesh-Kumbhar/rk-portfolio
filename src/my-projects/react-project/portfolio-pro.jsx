@@ -1,21 +1,21 @@
 import React from "react";
-import './../spring-project/ecom-pro.scss';
+import './../react-project/portfolio-pro.scss'
 
-function EcomPro() {
+function ReactPro(){
     return(
         <div className="col-sm-12 p-0 ">
 
             <div className="row m-0 justify-content-evenly">
                 <div className="col-sm-4 p-0 mt-5 project-card-mb">
-                <h4 className="text-center mb-3 ">Spring Ecom Project</h4>
+                <h4 className="text-center mb-3 ">My Portfolio using React</h4>
                     <div className="card shadow pro-card-border">
                         
-                        <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
+                        <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
                             <div className="card-body">
-                                <h5 className="card-title">Ecom App for Laptop and Accessories</h5>
-                                <p className="card-text">An ECommerce Project using Spring, React, Maven, Hibernate, MySQL with which we can perform CRUD Operations and Other User activities</p>
+                                <h5 className="card-title">My Portfolio Website</h5>
+                                <p className="card-text">This is My Portfolio , developed using React, HTML, Sass, Bootstrap, Where I share with you my Skills and Expertise, with a range of Projects that highlight my Abilities. </p>
                                 <div className="col-sm-12 p-0 text-center">
-                                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdropReact">
                                         View More
                                     </button>
                                 </div>
@@ -26,67 +26,66 @@ function EcomPro() {
 
 
             {/* <!-- Modal --> */}
-            <div class="modal fade modal-bg-color " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade modal-bg-color " id="staticBackdropReact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h3 class="modal-title main-heading-pro" id="staticBackdropLabel">Ecom App for Laptop and Accessories</h3>
+                            <h3 class="modal-title main-heading-pro" id="staticBackdropLabel">My Portfolio Website</h3>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <div className="col-sm-12 p-0 row m-0">
                                 <h5 className="sub-heading-pro mb-4">
-                                    An ECommerce Project using Spring, React, Maven, Hibernate, and MySQL :
+                                    My Portfolio Website using React, HTML, Sass, Bootstrap :
                                 </h5>
 
                                 <div className="col-sm-5 p-0 row m-0 display-in-mb">
-                                    <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                    <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
                                 </div>
                             <div className="col-sm-7 p-0 row m-0 modal-content-scroll">
                                 <b className=" mb-2">
                                     <b>Technologies Used : </b>
                                 </b>
                                 <h5 className="sub-heading-pro mb-4">
-                                    HTML, CSS, Bootstrap, MySQL, Spring, Hibernate, Spring Data JPA
-                                    Spring, React, Maven, Hibernate, and MySQL :
+                                    React, HTML, CSS, Bootstrap, etc :
                                 </h5>
                                 <li className=" mb-4">
-                                    <b>Front-end : </b>
-                                     The front-end of the application is built using React, which is a popular JavaScript library for building user interfaces. React provides reusable UI components that can be used to create a responsive and dynamic web application.
+                                    <b>Home : </b>
+                                    The Home section is landing page of website which consist of My Name and banner images,with attractive and Responsive design.
                                 </li>
 
                                 <li className=" mb-4">
-                                    <b>Back-end : </b>
-                                     The back-end of the application is built using Spring Framework, which includes Spring Boot and Hibernate. Spring Boot is a popular Java framework for building web applications, while Hibernate is an Object Relational Mapping (ORM) tool that simplifies database access. 
+                                    <b>Education : </b>
+                                     The Education page contains information about Primary, Secondary, highest Educational qualification. 
                                 </li>
 
                                 <li className="mb-4">
-                                    <b>Database : </b>
-                                     The application is MySQL as the database. MySQL is a popular open-source relational database management system that is widely used for web applications. Also used Spring JPA(Hibernate) to perform CRUD Operation
+                                    <b>Skills : </b>
+                                     This Skills section showcases the Frameworks and Technologies, that I am familiar with 
                                 </li>
 
                                 <li className="mb-4">
-                                    <b>Build Tool : </b>
-                                     The application is Maven as the build tool. Maven is a popular build automation tool that helps to manage dependencies and build the project. 
+                                    <b>Projects : </b>
+                                    Projects section is consist of another Four Sections, and describes about Projects in detail with GitHub ,Live Project Link, Demo Video. 
                                 </li>
 
                                 <li className="mb-4">
-                                    <b>Development environment : </b>
-                                      The application is developed using an Integrated Development Environment (IDE) such as Eclipse or STS(Spring Tool Suit) and VS Code
+                                    <b>Internship : </b>
+                                      Intership section of website contains the information about Six months Full Time Internship that I have Completed in 7'th semister.
                                 </li>
 
                                 <li className="mb-4">
-                                    <b>User Authentication and Authorization : </b>
-                                       User authentication and authorization is implemented using Spring Security, which is a powerful and highly customizable security framework for Java applications. 
+                                    <b>Contact : </b>
+                                       You can always reach me by Contact details provided on My Portfolio Website . 
                                 </li>
 
                                 <li className="mb-4">
-                                    <b>Payment Gateway Integration : </b>
-                                     Payment gateway integration is implemented using a payment gateway API such as RozarPay
+                                    <b>Footer : </b>
+                                     Footer contains my GitHub, LinkedIn and Socials ! We can connect . 
                                 </li>
                             </div>
                             <div className="col-sm-5 p-0 row m-0 hide-in-mb">
-                                <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
                             </div>
                             </div>
 
@@ -108,7 +107,7 @@ function EcomPro() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default EcomPro;
+export default ReactPro;

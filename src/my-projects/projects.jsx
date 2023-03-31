@@ -2,6 +2,7 @@ import React from "react";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import EcomPro from "./spring-project/ecom-pro";
+import ReactPro from "./react-project/portfolio-pro"; 
 import './../my-projects/project.scss'
 
 
@@ -22,7 +23,7 @@ function Projects() {
                     </Tab>
 
                     <Tab eventKey={2} title="React">
-                        My Portfolio React 
+                        <ReactPro></ReactPro>
                     </Tab>
 
                     <Tab eventKey={3} title="Angular" >

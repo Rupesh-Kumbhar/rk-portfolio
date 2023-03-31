@@ -13,19 +13,18 @@ function Footer() {
               <div className="col-sm-12 p-0 row m-0 my-4">
               
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
-                <a href='https://github.com/Rupesh-Kumbhar' target='_blank' rel="noopener noreferrer" className="d-flex">
-                  <img src='/assets/logos/github.svg' alt='' className="social-logos mr-2" />
-                  <span className="my-2">GitHub</span>
-                </a>
-              </div>
-
-              <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
                 <a href='https://www.linkedin.com/in/rupesh-kumbhar-54a9b6184/' target='_blank' rel="noopener noreferrer" className="d-flex">
                   <img src='/assets/logos/linkedin.svg' alt='' className="social-logos mr-2" />
                   <span className="my-2">LinkedIn</span>
                 </a>
               </div>
-              
+
+              <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
+                <a href='https://github.com/rupeshk2001' target='_blank' rel="noopener noreferrer" className="d-flex">
+                  <img src='/assets/logos/github.svg' alt='' className="social-logos mr-2" />
+                  <span className="my-2">GitHub</span>
+                </a>
+              </div>
 
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
                 <a href='https://www.instagram.com/rupesh_kumbhar_/?igshid=ZDdkNTZiNTM%3D' target='_blank' rel="noopener noreferrer" className="d-flex">
