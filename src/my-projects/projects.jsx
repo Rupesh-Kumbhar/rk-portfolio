@@ -5,6 +5,10 @@ import EcomPro from "./spring-project/ecom-pro";
 import ReactPro from "./react-project/portfolio-pro"; 
 import './../my-projects/project.scss'
 import MernPro from "./angular-project/mern-pro";
+import FyPro from "./college-projects/fy-project/fy-pro";
+import SyPro from "./college-projects/sy-project/sy-pro";
+import TyPro from "./college-projects/ty-project/ty-pro";
+import BtechPro from "./college-projects/b-tect-project/b-tech-pro";
 
 
 function Projects() {
@@ -33,10 +37,10 @@ function Projects() {
 
                     <Tab eventKey={4} title="College Projects" >
                         <ul>
-                            <li>FY Sci-Tech</li>
-                            <li>SY Sci-Tech</li>
-                            <li>TY Sci-Tech</li>
-                            <li>B.Tech Alumini Tracking System</li>
+                            <li> <FyPro></FyPro> </li>
+                            <li><SyPro></SyPro> </li>
+                            <li> <TyPro></TyPro> </li>
+                            <li> <BtechPro></BtechPro> </li>
 
                         </ul>
 
