@@ -4,6 +4,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import EcomPro from "./spring-project/ecom-pro";
 import ReactPro from "./react-project/portfolio-pro"; 
 import './../my-projects/project.scss'
+import MernPro from "./angular-project/mern-pro";
 
 
 function Projects() {
@@ -27,7 +28,7 @@ function Projects() {
                     </Tab>
 
                     <Tab eventKey={3} title="Angular" >
-                        MERN UI/UX
+                        <MernPro></MernPro>
                     </Tab>
 
                     <Tab eventKey={4} title="College Projects" >
