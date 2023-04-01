@@ -2,6 +2,29 @@
     border: none !important;
     justify-content: space-evenly;
 }
-.nav-item{
-    // padding: 0px 5%;
+
+// media queries
+@media screen and (max-width: 576px) {
+
+    .nav-item{
+        width: 100%;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        color: #FB2E86;
+        border-bottom: 3px solid;
+        background-color: #fff;
+        border-color: #FFF #FFF #FB2E86;
+        font-weight: 700;
+        font-size: 20px;
+        margin: 0px auto;
+    }
+
+    .nav-tabs .nav-link {
+        margin-bottom: -1px;
+        background: 0 0;
+        margin: 0px auto;
+        border: 1px solid transparent;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
 }
