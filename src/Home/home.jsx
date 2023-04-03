@@ -2,8 +2,12 @@ import React from "react";
 // import "./../Home/home.css";
 import "./../Home/home.scss";
 
+function openPdfInNewTab() {
+    window.open('/assets/my-resume/Rupesh_Kumbhar.pdf', '_blank');
+  }
+
 function Home() {
-    
+
     return (
         <div className="col-sm-12 p-0">
             <head>
@@ -30,7 +34,9 @@ function Home() {
                             <p>Fullstack Developer 👨‍💻 </p>
                             <p>A Student 📚 </p>
                     </div>
-
+                    <div className="col-sm-12 p-0 mt-3 resume-btn-mb">
+                        <button className="btn btn-info resume-btn px-4" onClick={openPdfInNewTab}>My Resume</button>
+                    </div>
                     </div>
                 </div>
 
