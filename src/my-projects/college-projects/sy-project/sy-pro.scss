@@ -1,0 +1,10 @@
+.pro-card-width-33{
+    width: 30%;
+}
+
+//media queries
+@media screen and (max-width: 576px) {
+    .pro-card-width-33{
+        width: 100% !important;
+    }
+}
