@@ -8,7 +8,7 @@ import MeanPro from "./angular-project/mean-pro";
 import FyPro from "./college-projects/fy-project/fy-pro";
 import SyPro from "./college-projects/sy-project/sy-pro";
 import TyPro from "./college-projects/ty-project/ty-pro";
-import BtechPro from "./college-projects/b-tect-project/b-tech-pro";
+import BtechPro from "./college-projects/b-tech-project/b-tech-pro";
 
 
 function Projects() {
@@ -36,14 +36,12 @@ function Projects() {
                     </Tab>
 
                     <Tab eventKey={4} title="College Projects" >
-                        <ul>
-                            <li> <FyPro></FyPro> </li>
-                            <li><SyPro></SyPro> </li>
-                            <li> <TyPro></TyPro> </li>
-                            <li> <BtechPro></BtechPro> </li>
-
-                        </ul>
-
+                        <div className="col-sm-12 p-0 row m-0 justify-content-evenly">
+                            <FyPro></FyPro>
+                            <SyPro></SyPro>
+                            <TyPro></TyPro>
+                            <BtechPro></BtechPro>
+                        </div>
                     </Tab>
                 </Tabs>
             </div>
