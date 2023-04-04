@@ -88,6 +88,28 @@ $background: #FFF;
   }
 }
 
+
+.intern-btn{
+  color: #FFF;
+  background-color: #1e031d;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.btn-info:hover {
+  color: #FFF;
+  background-color: #cf0992;
+  /* transition-delay: 0.3s; */
+  transform: scale(1.1);
+  box-shadow: none !important;
+  /* border-color: #25cff2; */
+ transition: all .2s ease;
+}
+
+.intern-btn-mb{
+  margin-right: 3% !important;
+}
 //media queries
 @media screen and (max-width: 576px) {
 
@@ -113,5 +135,12 @@ $background: #FFF;
     height: auto;
     border-radius: 20px;
     box-shadow: 1px 0px 14px -6px #000;
-}
+  }
+
+  .intern-btn-mb{
+    text-align: center;
+  }
+  .w-auto-mb{
+    width: 100% !important;
+  }
 }

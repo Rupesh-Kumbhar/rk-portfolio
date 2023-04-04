@@ -3,7 +3,7 @@ import React from "react";
 import "./../Home/home.scss";
 
 function openPdfInNewTab() {
-    window.open('/assets/my-resume/Rupesh_Kumbhar.pdf', '_blank');
+    window.open('/assets/my-resume/Rupesh_Kumbhar_Resume.pdf', '_blank');
   }
 
 function Home() {

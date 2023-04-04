@@ -8,7 +8,7 @@ function EcomPro() {
             <div className="row m-0 justify-content-evenly">
                 <div className="col-sm-4 p-0 mt-5 project-card-mb">
                 <h4 className="text-center mb-3 ">Spring Ecom Project</h4>
-                    <div className="card shadow pro-card-border">
+                    <div className="card shadow pro-card-border transform-hover">
                         
                         <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
                             <div className="card-body">

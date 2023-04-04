@@ -1,6 +1,14 @@
 import React from "react";
 import "./../Internship/Internship.scss";
 
+function openInternshipOfferLetter() {
+    window.open('/assets/internships/Internship_Offer_Letter_Rupesh_Kumbhar.pdf', '_blank');
+  }
+
+function openInternshipCertificate() {
+    window.open('/assets/internships/Internship_Certificate_Rupesh_Kumbhar.pdf', '_blank');
+  }
+
 function Internship(){
     return (
         <div className="col-sm-12 p-0">
@@ -21,9 +29,20 @@ function Internship(){
                                 Front-End Web Developer
                             </div>
                             
-                            <div className="intern-content-1 mb-3">
+                            <div className="intern-content-1 mb-2">
                                 6 Months Full-Time Internship
                             </div>
+                            <div className="col-sm-12 p-0 my-3 row m-0">
+                                <div className="w-auto w-auto-mb p-0 my-3 intern-btn-mb">
+                                    <button className="btn btn-info intern-btn px-4" onClick={openInternshipOfferLetter}>Internship Offer Letter</button>
+                                </div>
+                                <div className="w-auto w-auto-mb p-0 my-3 intern-btn-mb">
+                                    <button className="btn btn-info intern-btn px-4" onClick={openInternshipCertificate}>Internship Certificate</button>
+                                </div>
+
+                            </div>
+
+
 
                             <div class="col-sm-12 m-auto">
                                 <h4>Technologies Worked on</h4>
