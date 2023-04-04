@@ -19,15 +19,26 @@ function Contact() {
             <div className="col-sm-12 pt-5 justify-content-center">
                         <div className="col-sm-9 pt-5 mx-auto no-padding-top-mb">
 
-                        <div className="col-sm-12 pt-5 row m-0 ">
+                        <div className="col-sm-12 row m-0 ">
                             <div className="col-sm-4 p-0 text-center">
-                                <h5>
-                                    Location
-                                </h5>
+                                <a href="
+                                    https://www.google.com/maps/place/Shivchatrapati+Cricket+Club+Malthan,+Phaltan/@17.993227,74.425585,2224m/data=!3m1!1e3!4m6!3m5!1s0x3bc3a55d2bda83f3:0x1397f2b9756aedf!8m2!3d17.9932268!4d74.425585!16s%2Fg%2F11lm2rd8dr?hl=en
+                                    " target="_blank" rel="noopener noreferrer">
+                                    <h5>Location</h5>
+                                </a>
+
                                 <div className="my-4">
-                                    <img src="/assets/images/location.svg" alt="" />
+                                    <a href="
+                                        https://www.google.com/maps/place/Shivchatrapati+Cricket+Club+Malthan,+Phaltan/@17.993227,74.425585,2224m/data=!3m1!1e3!4m6!3m5!1s0x3bc3a55d2bda83f3:0x1397f2b9756aedf!8m2!3d17.9932268!4d74.425585!16s%2Fg%2F11lm2rd8dr?hl=en
+                                        " target="_blank" rel="noopener noreferrer">
+                                        <img src="/assets/images/location.svg" alt="" />
+                                    </a>
                                 </div>
-                                <h5 className="pb-2">Phaltan, Satara, Maharashtra</h5>
+                                <a href="
+                                    https://www.google.com/maps/place/Shivchatrapati+Cricket+Club+Malthan,+Phaltan/@17.993227,74.425585,2224m/data=!3m1!1e3!4m6!3m5!1s0x3bc3a55d2bda83f3:0x1397f2b9756aedf!8m2!3d17.9932268!4d74.425585!16s%2Fg%2F11lm2rd8dr?hl=en
+                                    " target="_blank" rel="noopener noreferrer">
+                                    <h5 className="pb-2">Phaltan, Satara, Maharashtra</h5>
+                                </a>
                             </div>
                             <div className="col-sm-4 p-0 text-center phone-email-mb">
                                 <h5>Phone</h5>

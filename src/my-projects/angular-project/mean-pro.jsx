@@ -1,16 +1,16 @@
 import React from "react";
-import './../angular-project/mern-pro.scss';
+import './../angular-project/mean-pro.scss';
 
-function MernPro(){
+function MeanPro(){
     return(
         <div className="col-sm-12 p-0 ">
 
             <div className="row m-0 justify-content-evenly">
                 <div className="col-sm-4 p-0 mt-5 project-card-mb">
                 <h4 className="text-center mb-3 ">MEAN App CRUD Operations</h4>
-                    <div className="card shadow pro-card-border">
+                    <div className="card shadow pro-card-border transform-hover">
                         
-                        <img src="./assets/projects-images/angular-pro/mern-pro-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
+                        <img src="./assets/projects-images/angular-pro/mean-pro-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
                             <div className="card-body">
                                 <h5 className="card-title">Simple CRUD Operations using MEAN App</h5>
                                 <p className="card-text">This is Simple MEAN( MongoDB, ExpressJS, AngularJS, and NodeJS) App designed to Study how we can perform CRUD(Create, Read, Update, Delete) Operations. </p>
@@ -40,7 +40,7 @@ function MernPro(){
                                 </h5>
 
                                 <div className="col-sm-5 p-0 row m-0 display-in-mb">
-                                    <img src="./assets/projects-images/angular-pro/mern-pro-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                    <img src="./assets/projects-images/angular-pro/mean-pro-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
                                 </div>
                             <div className="col-sm-7 p-0 row m-0 modal-content-scroll">
                                 <b className=" mb-2">
@@ -71,7 +71,7 @@ function MernPro(){
 
                             </div>
                             <div className="col-sm-5 p-0 row m-0 hide-in-mb">
-                                <img src="./assets/projects-images/angular-pro/mern-pro-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                <img src="./assets/projects-images/angular-pro/mean-pro-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
                             </div>
                             </div>
 
@@ -96,4 +96,4 @@ function MernPro(){
     );
 }
 
-export default MernPro;
+export default MeanPro;

@@ -4,7 +4,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import EcomPro from "./spring-project/ecom-pro";
 import ReactPro from "./react-project/portfolio-pro"; 
 import './../my-projects/project.scss'
-import MernPro from "./angular-project/mern-pro";
+import MeanPro from "./angular-project/mean-pro";
 import FyPro from "./college-projects/fy-project/fy-pro";
 import SyPro from "./college-projects/sy-project/sy-pro";
 import TyPro from "./college-projects/ty-project/ty-pro";
@@ -32,7 +32,7 @@ function Projects() {
                     </Tab>
 
                     <Tab eventKey={3} title="Angular" >
-                        <MernPro></MernPro>
+                        <MeanPro></MeanPro>
                     </Tab>
 
                     <Tab eventKey={4} title="College Projects" >
