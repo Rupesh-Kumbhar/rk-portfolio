@@ -7,7 +7,7 @@ function ReactPro(){
 
             <div className="row m-0 justify-content-evenly">
                 <div className="col-sm-4 p-0 mt-5 project-card-mb">
-                <h4 className="text-center mb-3 ">My Portfolio using React</h4>
+                <h4 className="text-center mb-3 "> <u>My Portfolio using React</u> </h4>
                     <div className="card shadow pro-card-border transform-hover">
                         
                         <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
