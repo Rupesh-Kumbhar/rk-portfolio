@@ -21,7 +21,7 @@ function Home() {
 
             <div className="col-sm-12 p-0 row m-0 ">
                 <div className="col-sm-7 m-auto p-0">
-                    <div className="col-sm-8 m-auto">
+                    <div className="col-sm-8 m-auto col-sm-8-tablet-width">
                     <div className="home-content-1 mb-2">
                         Hello <span className="wave">👋</span>, I am
                     </div>
