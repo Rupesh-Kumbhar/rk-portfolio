@@ -18,10 +18,13 @@ function Navbar(){
                                 <a class="nav-link " aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Education</a>
+                                <a class="nav-link" href="#">Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Intership</a>
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Internship</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>

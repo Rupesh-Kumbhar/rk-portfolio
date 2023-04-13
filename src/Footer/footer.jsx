@@ -43,9 +43,9 @@ function Footer() {
 
             </div>
             <div className="col-sm-12 p-0 text-center mt-5">
-            Made with <span className='footer_love wave'>&#10084;</span> by Rupesh
-            
-            {/* Made with <span style="color: #e25555;">❤</span> by Rupesh */}
+              <p>
+                  Made with <span className='footer_love wave'>&#10084;</span> by Rupesh
+              </p>
             </div>
           </div>
         </footer>
