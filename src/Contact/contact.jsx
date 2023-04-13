@@ -1,5 +1,5 @@
 import React from "react";
-import './../Contact/contact.css'
+import './../Contact/contact.scss'
 
 function Contact() {
     return(
@@ -41,18 +41,30 @@ function Contact() {
                                 </a>
                             </div>
                             <div className="col-sm-4 p-0 text-center phone-email-mb">
-                                <h5>Phone</h5>
-                                <div className="my-4">
-                                    <img src="/assets/images/phone.svg" alt="" />
-                                </div>
-                                <h5 className="pb-2">+91 92847 43488</h5>
+                                <a href="tel:+919284743488">
+                                    <h5>Phone</h5>
+                                </a>
+                                <a href="tel:+919284743488">
+                                    <div className="my-4">
+                                        <img src="/assets/images/phone.svg" alt="" />
+                                    </div>
+                                </a>
+                                <a href="tel:+919284743488">
+                                    <h5 className="pb-2">+91 92847 43488</h5>
+                                </a>
                             </div>
                             <div className="col-sm-4 p-0 text-center phone-email-mb">
+                            <a href="mailto:rp.kumbhar2001@gmail.com" >
                                 <h5 className="pb-2">Email</h5>
+                            </a>
+                            <a href="mailto:rp.kumbhar2001@gmail.com" >
                                 <div className="my-4">
                                     <img src="/assets/images/email.svg" alt="" />
                                 </div>
+                            </a>
+                            <a href="mailto:rp.kumbhar2001@gmail.com" >
                                 <h5 className="pb-2">rp.kumbhar2001@gmail.com</h5>
+                            </a>
                             </div>
                         </div>
 

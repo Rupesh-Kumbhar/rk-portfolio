@@ -12,7 +12,7 @@ function FyPro(){
                         EV Range Calculator
                     </u>
                 </h4>
-                    <div className="card shadow pro-card-border">
+                    <div className="card shadow pro-card-border transform-hover">
                         
                         <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
                             <div className="card-body">
