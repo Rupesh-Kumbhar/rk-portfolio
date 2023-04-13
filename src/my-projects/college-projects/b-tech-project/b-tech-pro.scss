@@ -1,7 +1,10 @@
 .pro-card-width-33{
     width: 30%;
 }
-
+.transform-hover:hover{
+    transform: scale(1.03);
+    transition: .25s ease-in-out;
+}
 //media queries
 @media screen and (max-width: 576px) {
     .pro-card-width-33{
