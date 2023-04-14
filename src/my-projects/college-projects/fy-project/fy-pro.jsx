@@ -14,7 +14,7 @@ function FyPro(){
                 </h4>
                     <div className="card shadow pro-card-border transform-hover">
                         
-                        <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
+                        <img src="./assets/projects-images/college-pro/EVCalculator.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
                             <div className="card-body">
                                 <h5 className="card-title">EV Range Calculator</h5>
                                 <p className="card-text">This is Electric vehicles Range-Calculator project in which we can calculate Range of EV by giving Inputs like Battery capacity, Battery type etc, We Presented it in Sci-Tech Event, Developed using C, C++ in FY of College . </p>
@@ -44,14 +44,14 @@ function FyPro(){
                                 </h5>
 
                                 <div className="col-sm-5 p-0 row m-0 display-in-mb">
-                                    <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                    <img src="./assets/projects-images/college-pro/EVCalculator.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
                                 </div>
                             <div className="col-sm-7 p-0 row m-0 modal-content-scroll">
                                 <b className=" mb-2">
                                     <b>Languages Used : </b>
                                 </b>
                                 <h5 className="sub-heading-pro mb-4">
-                                    C, C++ etc :
+                                    C, C++ :
                                 </h5>
                                 <li className=" mb-4">
                                     <b>Inputs : </b>
@@ -76,7 +76,7 @@ function FyPro(){
 
                             </div>
                             <div className="col-sm-5 p-0 row m-0 hide-in-mb">
-                                <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                <img src="./assets/projects-images/college-pro/EVCalculator.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
                             </div>
                             </div>
 
