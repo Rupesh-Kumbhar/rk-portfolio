@@ -15,8 +15,8 @@ function Home() {
             </head>
             <div className="col-sm-10 p-0 mx-auto">
             
-                <h1 className="text-center my-5">
-                    Home
+                <h1 className="text-center my-5 pt-1 ">
+                    
                 </h1>
 
             <div className="col-sm-12 p-0 row m-0 ">
