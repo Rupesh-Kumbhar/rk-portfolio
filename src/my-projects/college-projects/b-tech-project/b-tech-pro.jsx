@@ -87,8 +87,7 @@ function BtechPro(){
                                 <div className="col p-0 row m-0 width-mb-100">
                                     <button type="button" class="btn modal-btn w-auto mr-3">GitHub</button>
                                     <button type="button" class="btn modal-btn w-auto mr-3">Live Link</button>
-                                    <button type="button" class="btn modal-btn w-auto">Demo Video</button>
-
+                                    <a href="https://drive.google.com/file/d/1MbDToaycgD6WxBWg3MCIcc6cxpvtVe-c/view?usp=sharing" target="_blank" class="btn modal-btn w-auto mr-3">Demo Video </a>
                                 </div>
                                 <div className="col p-0 row m-0 justify-content-end width-mb-100">
                                     <button type="button" class="btn btn-secondary w-auto" data-bs-dismiss="modal">Close</button>
