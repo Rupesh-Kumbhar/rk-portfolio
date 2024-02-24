@@ -9,6 +9,7 @@ import Internship from './Internship/Internship';
 import Home from './Home/home';
 import Projects from './my-projects/projects';
 import Skills from './skills/skills';
+import JobExperince from './JobExperience/jobExperience';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <Education></Education>
+      <JobExperince></JobExperince>
       <Skills></Skills>
       <Projects></Projects>
       <Internship></Internship>
