@@ -31,7 +31,7 @@ function Skills() {
         './assets/dbOtherTech/figma.svg'
     ];
     return(
-        <div className="col-sm-12 p-0">
+        <div className="col-sm-12 p-0" id="skills">
             <div className="col-sm-10 p-0 mx-auto">
 
                 <h1 className="text-center my-5">

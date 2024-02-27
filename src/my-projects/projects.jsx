@@ -14,7 +14,7 @@ import BtechPro from "./college-projects/b-tech-project/b-tech-pro";
 function Projects() {
     return (
 
-        <div className="col-sm-12 p-0">
+        <div className="col-sm-12 p-0" id="projects">
             <h1 className="text-center my-5">
                 My Projects
             </h1>
