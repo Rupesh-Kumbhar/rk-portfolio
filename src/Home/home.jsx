@@ -9,7 +9,7 @@ function openPdfInNewTab() {
 function Home() {
 
     return (
-        <div className="col-sm-12 p-0">
+        <div className="col-sm-12 p-0" id="home">
             <head>
                 <script src="/scripts/home-anim.js"></script>
             </head>

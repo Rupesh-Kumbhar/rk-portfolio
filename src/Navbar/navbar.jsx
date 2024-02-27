@@ -7,7 +7,7 @@ import './../Navbar/navbar.css'
 function Navbar(){
     return(
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light nav-top-fix">
                 <div class="container-fluid">
                     {/* <a class="navbar-brand" href="#">Navbar</a> */}
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,20 +15,36 @@ function Navbar(){
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav ">
+
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                                <Link to="home" spy={true} smooth={true} offset={-100}
+                                    duration={500} class="nav-link " aria-current="page" href="#">Home</Link>
                             </li>
+
+
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Skills</a>
+                                <Link to="skills" spy={true} smooth={true} offset={-100}
+                                    duration={500} class="nav-link " aria-current="page" href="#">Skills</Link>
                             </li>
+
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <Link to="job-exp" spy={true} smooth={true} offset={-100}
+                                    duration={500} class="nav-link " aria-current="page" href="#">Job Experience</Link>
                             </li>
+
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Internship</a>
+                                <Link to="projects" spy={true} smooth={true} offset={-100}
+                                    duration={500} class="nav-link " aria-current="page" href="#">Projects</Link>
                             </li>
+
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <Link to="internship" spy={true} smooth={true} offset={-100}
+                                    duration={500} class="nav-link " aria-current="page" href="#">Internship</Link>
+                            </li>
+
+                            <li class="nav-item">
+                                <Link to="contact" spy={true} smooth={true} offset={-100}
+                                    duration={500} class="nav-link " aria-current="page" href="#">Contact</Link>
                             </li>
 
                             {/* <li class="nav-item">

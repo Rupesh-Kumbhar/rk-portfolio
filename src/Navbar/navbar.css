@@ -1,3 +1,10 @@
+.nav-top-fix{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
 /* media queries */
 @media screen and (max-width: 992px) {
     .navbar-light .navbar-nav .nav-link {
