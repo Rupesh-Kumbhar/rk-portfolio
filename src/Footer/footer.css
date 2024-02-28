@@ -39,6 +39,11 @@ a {
     /* color: #FB2E86; */
     text-decoration: none;
 }
+.footer-a-tag{
+  color: #000;
+  /* color: #FB2E86; */
+  text-decoration: none;
+}
 
 a:hover {
   color: #FB2E86;
