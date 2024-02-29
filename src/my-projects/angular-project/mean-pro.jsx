@@ -7,7 +7,7 @@ function MeanPro(){
 
             <div className="row m-0 justify-content-evenly">
                 <div className="col-sm-4 p-0 mt-5 project-card-mb">
-                <h4 className="text-center mb-3 "> <u>MEAN App CRUD Operations</u> </h4>
+                <h4 className="text-center mb-4 "> <u>MEAN App CRUD Operations</u> </h4>
                     <div className="card shadow pro-card-border transform-hover">
                         
                         <img src="./assets/projects-images/angular-pro/mean-pro-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
