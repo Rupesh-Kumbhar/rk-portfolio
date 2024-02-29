@@ -5,6 +5,9 @@ import './../Navbar/navbar.scss'
 
 
 function Navbar(){
+
+    const isMobile = window.innerWidth <= 768; 
+
     return(
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light nav-top-fix">
@@ -18,33 +21,61 @@ function Navbar(){
 
                             <li class="nav-item d-flex">
                                 <Link to="home" spy={true} smooth={true} offset={-100}
-                                    duration={500} class="nav-link navbar-link-css " aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} >Home</Link>
+                                    duration={500} class="nav-link navbar-link-css " aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} 
+                                    {...(isMobile ? {
+                                        'data-bs-toggle': 'collapse',
+                                        'data-bs-target': '#navbarSupportedContent'
+                                    } : {})}
+                                    >Home</Link>
                             </li>
                             
                             <li class="nav-item d-flex">
                                 <Link to="job-exp" spy={true} smooth={true} offset={-100}
-                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} >Job Experience</Link>
+                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} 
+                                    {...(isMobile ? {
+                                        'data-bs-toggle': 'collapse',
+                                        'data-bs-target': '#navbarSupportedContent'
+                                    } : {})}
+                                    >Job Experience</Link>
                             </li>
 
                             <li class="nav-item d-flex">
                                 <Link to="skills" spy={true} smooth={true} offset={-100}
-                                    duration={500} class="nav-link navbar-link-css " aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px' , margin: 'auto', padding: '0.5rem' }} >Skills</Link>
+                                    duration={500} class="nav-link navbar-link-css " aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px' , margin: 'auto', padding: '0.5rem' }} 
+                                    {...(isMobile ? {
+                                        'data-bs-toggle': 'collapse',
+                                        'data-bs-target': '#navbarSupportedContent'
+                                    } : {})}
+                                    >Skills</Link>
                             </li>
 
 
                             <li class="nav-item d-flex">
                                 <Link to="projects" spy={true} smooth={true} offset={-100}
-                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} >Projects</Link>
+                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} 
+                                    {...(isMobile ? {
+                                        'data-bs-toggle': 'collapse',
+                                        'data-bs-target': '#navbarSupportedContent'
+                                    } : {})}
+                                    >Projects</Link>
                             </li>
 
                             <li class="nav-item d-flex">
                                 <Link to="internship" spy={true} smooth={true} offset={-100}
-                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} >Internship</Link>
+                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} {...(isMobile ? {
+                                        'data-bs-toggle': 'collapse',
+                                        'data-bs-target': '#navbarSupportedContent'
+                                    } : {})}
+                                    >Internship</Link>
                             </li>
 
                             <li class="nav-item d-flex">
                                 <Link to="contact" spy={true} smooth={true} offset={-100}
-                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} >Contact</Link>
+                                    duration={500} class="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} {...(isMobile ? {
+                                        'data-bs-toggle': 'collapse',
+                                        'data-bs-target': '#navbarSupportedContent'
+                                    } : {})}
+                                    >Contact</Link>
                             </li>
 
 

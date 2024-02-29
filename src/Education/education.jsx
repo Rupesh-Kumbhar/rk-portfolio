@@ -11,17 +11,17 @@ function Education(){
                 <div className="col-sm-10 p-0 mx-auto ">
                     <div className="col-sm-12 p-0 row m-0 justify-content-center">
                         <div className="col-sm-5 p-0 ">
-                            <h5 className="text-center edu-heading" >10th / SSC </h5>
-                            <p className="text-center m-0 mt-3">93.20% </p>
-                            <p className="text-center">(2016)</p>
-                            <p className="text-center">Kranti Vidyalaya Sawali, Medha</p>
+                            <h4 className="text-center edu-heading" >10th / SSC </h4>
+                            <h4 className="text-center m-0 mt-3">93.20% </h4>
+                            <h5 className="text-center mt-2">(2016)</h5>
+                            <h5 className="text-center mt-3">Kranti Vidyalaya Sawali, Medha</h5>
 
                         </div>
                         <div className="col-sm-5 p-0 margin-top-mb-12th">
-                            <h5 className="text-center edu-heading">12th / HSC  </h5>
-                            <p className="text-center m-0 mt-3">83.08% </p>
-                            <p className="text-center">(2018)</p>
-                            <p className="text-center">Mudhoji High School Phaltan</p>
+                            <h4 className="text-center edu-heading">12th / HSC  </h4>
+                            <h4 className="text-center m-0 mt-3">83.08% </h4>
+                            <h5 className="text-center mt-2">(2018)</h5>
+                            <h5 className="text-center mt-3">Mudhoji High School Phaltan</h5>
                         </div>
                     </div>
                 </div>
