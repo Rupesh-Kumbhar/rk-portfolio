@@ -17,11 +17,18 @@ function Education(){
                             <h5 className="text-center mt-3">Kranti Vidyalaya Sawali, Medha</h5>
 
                         </div>
-                        <div className="col-sm-5 p-0 margin-top-mb-12th">
+                        <div className="col-sm-5 p-0 margin-top-mb-12th ">
                             <h4 className="text-center edu-heading">12th / HSC  </h4>
                             <h4 className="text-center m-0 mt-3">83.08% </h4>
                             <h5 className="text-center mt-2">(2018)</h5>
-                            <h5 className="text-center mt-3">Mudhoji High School Phaltan</h5>
+                            <h5 className="text-center mt-3">Mudhoji High School, Phaltan</h5>
+                        </div>
+
+                        <div className="col-sm-5 p-0 margin-top-mb-12th mt-5">
+                            <h4 className="text-center edu-heading">B Tech  </h4>
+                            <h4 className="text-center m-0 mt-3">8.81 </h4>
+                            <h5 className="text-center mt-2">(2022)</h5>
+                            <h5 className="text-center mt-3">Vishwakarma Institute Of Information Technology, Pune</h5>
                         </div>
                     </div>
                 </div>
