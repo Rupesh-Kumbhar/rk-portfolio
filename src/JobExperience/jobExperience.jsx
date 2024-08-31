@@ -22,9 +22,10 @@ function JobExperince(){
                     <div className="col-sm-7 m-auto ">
                         <div className="col-sm-12 m-auto px-4">
                             <div className="intern-content-2 mb-2 mt-4">
-                                Programmer Analyst Trainee
+                                Jr. Software Engineer
+                                
                             </div>
-                            
+                            <p>June 23 - Present (1 yr 3 mos)</p>
                             <div className="intern-content-1 mb-2">
                                 <a href="https://www.cognizant.com/in/en" target="_blank" className="custom-link" rel="noopener noreferrer">
                                     @ Cognizant Technology Solutions
@@ -38,7 +39,7 @@ function JobExperince(){
                             </div>
 
                             <div class="col-sm-12 m-auto">
-                                <h4>CSD Programm - Technologies </h4>
+                                <h4>CSD Program - Technologies </h4>
                                 <ul>
                                     <li>HTML, CSS, Bootstrap</li>
                                     <li>React, Node JS, Spring,Spring Boot </li>
