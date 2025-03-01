@@ -20,7 +20,7 @@ function Internship(){
                 <div className="col-sm-12 p-0 row m-0 ">
                     <div className="col-sm-5">
                         <div className="text-center">
-                            <img src="assets/images/intern-img.jpg" alt="image" className="intern-img"/>
+                            <img src="assets/images/intern-img.jpg" alt="intern" className="intern-img"/>
                         </div>
                     </div>
                     <div className="col-sm-7 m-auto ">
