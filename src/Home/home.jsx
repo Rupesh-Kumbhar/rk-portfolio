@@ -45,7 +45,7 @@ function Home() {
                         
                     <img
                         src="assets/images/home-img.svg"
-                        alt="image"
+                        alt="home"
                         className="home-img animated"
                     />
                     </div>
