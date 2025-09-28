@@ -44,7 +44,7 @@ function Skills() {
                 <div className="col-sm-12 p-0 row m-0 justify-content-evenly">
 
                     <div className="width-33">
-                        <h4 className="text-center my-5">FrontEnd</h4>
+                        <h4 className="text-center my-5">Frontend</h4>
                         <div className="row m-0 justify-content-center border-right transform-hover shadow-lg card-mb-width">
                             {mySkillFrontName.map((skill, index) => (
                                 <div className="col-md-4 my-3 text-center skill-badge-width-mb" key={index}>
