@@ -88,7 +88,7 @@ function Contact() {
                     <h1>Map</h1>
                 </div>
                 <div className="my-5">
-                    <iframe src="./location-map.html" width="100%" height="500px"></iframe>
+                    <iframe src="./location-map.html" width="100%" height="500px" title="Location Map"></iframe>
                 </div>
             </div>
                     
