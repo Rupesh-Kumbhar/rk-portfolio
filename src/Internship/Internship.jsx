@@ -44,7 +44,7 @@ function Internship(){
 
 
 
-                            <div class="col-sm-12 m-auto">
+                            <div className="col-sm-12 m-auto">
                                 <h4>Technologies Worked on</h4>
                                 <ul>
                                     <li>HTML, CSS, Bootstrap</li>
