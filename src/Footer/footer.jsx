@@ -14,28 +14,28 @@ function Footer() {
               
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
                 <a href='https://www.linkedin.com/in/rupesh-kumbhar-54a9b6184/' target='_blank' rel="noopener noreferrer" className="d-flex footer-a-tag">
-                  <img src='/assets/logos/linkedin.svg' alt='' className="social-logos mr-2" />
+                  <img src={process.env.PUBLIC_URL + '/assets/logos/linkedin.svg'} className="social-logos mr-2" alt="Logo" />
                   <span className="my-2">LinkedIn</span>
                 </a>
               </div>
 
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
                 <a href='https://github.com/rupeshk2001' target='_blank' rel="noopener noreferrer" className="d-flex">
-                  <img src='/assets/logos/github.svg' alt='' className="social-logos mr-2" />
+                  <img src={process.env.PUBLIC_URL + '/assets/logos/github.svg'} className="social-logos mr-2" alt="Logo" />
                   <span className="my-2">GitHub</span>
                 </a>
               </div>
 
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
                 <a href='https://www.instagram.com/rupesh_kumbhar_/?igshid=ZDdkNTZiNTM%3D' target='_blank' rel="noopener noreferrer" className="d-flex">
-                  <img src='/assets/logos/instagram.svg' alt='' className="social-logos mr-2" />
+                  <img src={process.env.PUBLIC_URL + '/assets/logos/instagram.svg'} className="social-logos mr-2" alt="Logo" />
                   <span className="my-2">Instagram</span>
                 </a>
               </div>
              
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
                 <a href='https://www.facebook.com/rupesh.kumbhar.58173' target='_blank' rel="noopener noreferrer" className="d-flex">
-                  <img src='/assets/logos/facebook.svg' alt='' className="social-logos mr-2" />
+                  <img src={process.env.PUBLIC_URL + '/assets/logos/facebook.svg'} className="social-logos mr-2" alt="Logo" />
                   <span className="my-2">Facebook</span>
                 </a>
               </div>
@@ -43,9 +43,9 @@ function Footer() {
 
             </div>
             <div className="col-sm-12 p-0 text-center mt-5">
-              <p>
-                  Made with <span className='footer_love wave'>&#10084;</span> by Rupesh
-              </p>
+              {/* <p> Made with <span className='footer_love wave'>&#10084;</span> by Rupesh Kumbhar</p> */}
+              <p>Just Try, It works...</p>
+              {/* <p>One more time</p> */}
             </div>
           </div>
         </footer>

@@ -31,7 +31,7 @@ function Contact() {
                                     <a href="
                                         https://www.google.com/maps/place/Shivchatrapati+Cricket+Club+Malthan,+Phaltan/@17.993227,74.425585,2224m/data=!3m1!1e3!4m6!3m5!1s0x3bc3a55d2bda83f3:0x1397f2b9756aedf!8m2!3d17.9932268!4d74.425585!16s%2Fg%2F11lm2rd8dr?hl=en
                                         " target="_blank" rel="noopener noreferrer">
-                                        <img src="/assets/images/location.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + '/assets/images/location.svg'} alt="" />
                                     </a>
                                 </div>
                                 <a href="
@@ -46,7 +46,7 @@ function Contact() {
                                 </a>
                                 <a href="tel:+919284743488">
                                     <div className="my-4">
-                                        <img src="/assets/images/phone.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + '/assets/images/phone.svg'} alt="" />
                                     </div>
                                 </a>
                                 <a href="tel:+919284743488">
@@ -59,7 +59,7 @@ function Contact() {
                             </a>
                             <a href="mailto:rp.kumbhar2001@gmail.com" >
                                 <div className="my-4">
-                                    <img src="/assets/images/email.svg" alt="" />
+                                    <img src={process.env.PUBLIC_URL + '/assets/images/email.svg'} alt="" />
                                 </div>
                             </a>
                             <a href="mailto:rp.kumbhar2001@gmail.com" >
@@ -83,14 +83,14 @@ function Contact() {
                         </div>
             </div>
 
-            <div className="col-sm-12 p-0 justify-content-center mt-5">
+            {/* <div className="col-sm-12 p-0 justify-content-center mt-5">
                 <div className="text-center">
                     <h1>Map</h1>
                 </div>
                 <div className="my-5">
                     <iframe src="./location-map.html" width="100%" height="500px" title="Location Map"></iframe>
                 </div>
-            </div>
+            </div> */}
                     
 
         </div>
