@@ -1,18 +1,24 @@
 import React from "react";
-// import "./../Home/home.css";
 import "./../Home/home.scss";
 
 function openPdfInNewTab() {
-    window.open('/assets/my-resume/CV_2025.pdf', '_blank');
-  }
+    window.open(`${process.env.PUBLIC_URL}/assets/my-resume/CV_2025.pdf`, '_blank');
+}
 
 function Home() {
+    // useEffect(() => {
+    //     const script = document.createElement("script");
+    //     script.src = `${process.env.PUBLIC_URL}/scripts/home-anim.js`;
+    //     script.async = true;
+    //     document.body.appendChild(script);
+
+    //     return () => {
+    //         document.body.removeChild(script);
+    //     };
+    // }, []);
 
     return (
         <div className="col-sm-12 p-0" id="home">
-            <head>
-                <script src="/scripts/home-anim.js"></script>
-            </head>
             <div className="col-sm-10 p-0 mx-auto">
             
                 <h1 className="text-center my-5 pt-1 ">
@@ -29,7 +35,7 @@ function Home() {
                     <div className="home-content-2 mb-2">
                         Rupesh Kumbhar
                     </div>
-                        <div class="typing-slider">
+                        <div className="typing-slider">
                             <p>A Software Engineer 🚀 </p>
                             <p>Fullstack Developer 👨‍💻 </p>
                             <p>A Student 📚 </p>
@@ -41,13 +47,8 @@ function Home() {
                 </div>
 
                 <div className="col-sm-5 p-0 img-margin-mb">
-                    <div>
-                        
-                    <img
-                        src="assets/images/home-img.svg"
-                        alt="home"
-                        className="home-img animated"
-                    />
+                    <div> 
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/home-img.svg`} className="home-img w-100" alt="home img" />
                     </div>
                 </div>
             </div>

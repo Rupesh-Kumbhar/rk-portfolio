@@ -62,7 +62,7 @@ function JobExperince(){
                   </div>
                 </div>
 
-                <div class="col-sm-12 m-auto">
+                <div className="col-sm-12 m-auto">
                   <h4>CSD Program - Technologies </h4>
                   <ul>
                     <li>HTML, CSS, Bootstrap</li>
