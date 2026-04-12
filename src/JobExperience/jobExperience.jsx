@@ -3,16 +3,17 @@ import "./../JobExperience/jobExperience.scss";
 import { parse, differenceInYears, differenceInMonths } from "date-fns";
 
 function openJobOfferLetter() {
-    window.open('/assets/jobOffer/Rupesh_Kumbhar_Offer_letter.pdf', '_blank');
+    window.open(`${process.env.PUBLIC_URL}/assets/jobOffer/Rupesh_Kumbhar_Offer_letter.pdf`, '_blank');
 }
 
 function JobExperince(){
 
-    const startDate = parse("June 2023", "MMMM yyyy", new Date()); // Fixed start date
+    //const job_startDate = parse("June 2023", "MMMM yyyy", new Date()); // Fixed start date
+    const promotion_startDate = parse("Jun 2023", "MMMM yyyy", new Date()); // Fixed start date
     const endDate = new Date(); // Current date
   
-    const years = differenceInYears(endDate, startDate);
-    const months = differenceInMonths(endDate, startDate) % 12;
+    const years = differenceInYears(endDate, promotion_startDate);
+    const months = differenceInMonths(endDate, promotion_startDate) % 12;
 
     return (
       <div className="col-sm-12 p-0" id="job-exp">
@@ -22,21 +23,14 @@ function JobExperince(){
           <div className="col-sm-12 p-0 row m-0 ">
             <div className="col-sm-5">
               <div className="text-center">
-                <img
-                  src="assets/images/job-img.svg"
-                  alt="jobimage"
-                  className="job-img"
-                />
+                <img src={process.env.PUBLIC_URL + '/assets/images/job-img.svg'} alt="jobimage" className="job-img" />
               </div>
             </div>
             <div className="col-sm-7 m-auto ">
               <div className="col-sm-12 m-auto px-4">
-                <div className="intern-content-2 mb-2 mt-4">
-                  Jr. Software Engineer
-                </div>
-                {/* <p>June 23 - Present (1 yr 3 mos)</p> */}
-                <p>
-                {startDate.toLocaleString("default", { month: "short", year: "numeric" })} - Present (
+                <div className="intern-content-2 mb-2 mt-4">Software Engineer</div>
+                <p className="mb-0">
+                {promotion_startDate.toLocaleString("default", { month: "short", year: "numeric" })} - Present (
                   {years > 0 ? `${years} year${years > 1 ? "s" : ""} ` : ""}
                   {months > 0 ? `${months} month${months > 1 ? "s" : ""}` : ""})
                 </p>
@@ -49,6 +43,13 @@ function JobExperince(){
                   >
                     @ Cognizant Technology Solutions
                   </a>
+                </div>
+
+                <div className="col-sm-12 m-auto">
+                  <h4>Jr. Software Engineer</h4>
+                <p className="mb-0">
+                Jun 2024 - Dec 2025 (1.5 years)
+                </p>
                 </div>
 
                 <div className="col-sm-12 p-0 my-3 row m-0">
