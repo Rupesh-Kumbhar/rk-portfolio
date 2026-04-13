@@ -5,30 +5,30 @@ function Skills() {
 
     const mySkillFrontName = ['HTML', 'CSS', 'JavaScript', 'React', 'Sass','Bootstrap', 'Angular'];
     const mySkillFrontImg = [
-        './assets/frontend/html.svg',
-        './assets/frontend/css.svg',
-        './assets/frontend/javascript.svg',
-        './assets/frontend/react.svg',
-        './assets/frontend/sass.svg',
-        './assets/frontend/bootstrap.svg',
-        './assets/frontend/angular.svg'
+        `${process.env.PUBLIC_URL}/assets/frontend/html.svg`,
+        `${process.env.PUBLIC_URL}/assets/frontend/css.svg`,
+        `${process.env.PUBLIC_URL}/assets/frontend/javascript.svg`,
+        `${process.env.PUBLIC_URL}/assets/frontend/react.svg`,
+        `${process.env.PUBLIC_URL}/assets/frontend/sass.svg`,
+        `${process.env.PUBLIC_URL}/assets/frontend/bootstrap.svg`,
+        `${process.env.PUBLIC_URL}/assets/frontend/angular.svg`
       ];
 
     const mySkillBackName = ['JAVA','MySQL','MongoDB', 'Node', 'Spring'];
     const mySkillBackImg = [
-        './assets/backend/java.svg',
-        './assets/backend/mysql.svg',
-        './assets/backend/mongodb.svg',
-        './assets/backend/node.svg',
-        './assets/backend/spring.svg'
+        `${process.env.PUBLIC_URL}/assets/backend/java.svg`,
+        `${process.env.PUBLIC_URL}/assets/backend/mysql.svg`,
+        `${process.env.PUBLIC_URL}/assets/backend/mongodb.svg`,
+        `${process.env.PUBLIC_URL}/assets/backend/node.svg`,
+        `${process.env.PUBLIC_URL}/assets/backend/spring.svg`
     ];
 
     const mySkillDbOtherName = ['MySQL','MongoDB','Figma'];
 
     const mySkillOtherImg = [
-        './assets/dbOtherTech/mysql.svg',
-        './assets/dbOtherTech/mongodb.svg',
-        './assets/dbOtherTech/figma.svg'
+        `${process.env.PUBLIC_URL}/assets/dbOtherTech/mysql.svg`,
+        `${process.env.PUBLIC_URL}/assets/dbOtherTech/mongodb.svg`,
+        `${process.env.PUBLIC_URL}/assets/dbOtherTech/figma.svg`
     ];
     return(
         <div className="col-sm-12 p-0" id="skills">
