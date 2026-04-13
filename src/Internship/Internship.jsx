@@ -2,11 +2,11 @@ import React from "react";
 import "./../Internship/Internship.scss";
 
 function openInternshipOfferLetter() {
-    window.open('/assets/internships/Internship_Offer_Letter_Rupesh_Kumbhar.pdf', '_blank');
+    window.open(`${process.env.PUBLIC_URL}/assets/internships/Internship_Offer_Letter_Rupesh_Kumbhar.pdf`, '_blank');
   }
 
 function openInternshipCertificate() {
-    window.open('/assets/internships/Internship_Certificate_Rupesh_Kumbhar.pdf', '_blank');
+    window.open(`${process.env.PUBLIC_URL}/assets/internships/Internship_Certificate_Rupesh_Kumbhar.pdf`, '_blank');
   }
 
 function Internship(){
@@ -20,7 +20,7 @@ function Internship(){
                 <div className="col-sm-12 p-0 row m-0 ">
                     <div className="col-sm-5">
                         <div className="text-center">
-                            <img src="assets/images/intern-img.jpg" alt="intern" className="intern-img"/>
+                            <img src={process.env.PUBLIC_URL + '/assets/images/intern-img.jpg'} alt="intern" className="intern-img"/>
                         </div>
                     </div>
                     <div className="col-sm-7 m-auto ">
