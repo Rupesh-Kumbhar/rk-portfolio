@@ -10,7 +10,7 @@ function EcomPro() {
                 <h4 className="text-center mb-4 "> <u>Spring Ecom Project</u> </h4>
                     <div className="card shadow pro-card-border transform-hover">
                         
-                        <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
+                        <img src={`${process.env.PUBLIC_URL}/assets/projects-images/spring-pro/spring-Ecom-pro.svg`} className="card-img-top w-75 mx-auto mt-4" alt="pro img" />
                             <div className="card-body">
                                 <h5 className="card-title">Ecom App for Laptop and Accessories</h5>
                                 <p className="card-text">An ECommerce Project using Spring, React, Maven, Hibernate, MySQL with which we can perform CRUD Operations and Other User activities</p>
@@ -40,7 +40,7 @@ function EcomPro() {
                                 </h5>
 
                                 <div className="col-sm-5 p-0 row m-0 display-in-mb">
-                                    <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/projects-images/spring-pro/spring-Ecom-pro.svg`} className="card-img-top w-100 mx-auto" alt="pro img" />                                    
                                 </div>
                             <div className="col-sm-7 p-0 row m-0 modal-content-scroll">
                                 <b className=" mb-2">
@@ -86,7 +86,7 @@ function EcomPro() {
                                 </div>
                             </div>
                             <div className="col-sm-5 p-0 row m-0 hide-in-mb">
-                                <img src="./assets/projects-images/spring-pro/spring-Ecom-pro.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                               <img src={`${process.env.PUBLIC_URL}/assets/projects-images/spring-pro/spring-Ecom-pro.svg`} className="card-img-top w-100 mx-auto mt-4" alt="pro img" /> 
                             </div>
                             </div>
 
@@ -94,10 +94,9 @@ function EcomPro() {
                         <div className="modal-footer justify-content-evenly">
                             <div className="col-sm-12 p-0 row m-0 not-display-flex-mb">
                                 <div className="col p-0 row m-0 width-mb-100">
-                                    <button type="button" className="btn modal-btn w-auto mr-3">GitHub</button>
-                                    <button type="button" className="btn modal-btn w-auto mr-3">Live Link</button>
-                                    <button type="button" className="btn modal-btn w-auto">Demo Video</button>
-
+                                    <a class="" href="https://github.com/Rupesh-Kumbhar/ecom-store-backend" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto mr-3" data-toggle="tooltip" data-placement="top" title="Open on GitHub" >GitHub</a>
+                                    <a class="" href="https://www.youtube.com/watch?v=9n2l8sXoQh0&t=1s" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto mr-3" data-toggle="tooltip" data-placement="top" title="Open on YouTube" >Demo Video</a>
+                                    <a class="" href="https://rk-ecom-test.netlify.app/" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto" data-toggle="tooltip" data-placement="top" title="Open Live Link" >Live Link</a>
                                 </div>
                                 <div className="col p-0 row m-0 justify-content-end width-mb-100">
                                     <button type="button" className="btn btn-secondary w-auto" data-bs-dismiss="modal">Close</button>
