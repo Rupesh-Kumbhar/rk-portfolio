@@ -11,6 +11,7 @@ function ReactPro(){
                     <div className="card shadow pro-card-border transform-hover">
                         
                         <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
+                        <img src={`${process.env.PUBLIC_URL}/assets/projects-images/react-pro/portfolio-img.svg`} className="card-img-top w-75 mx-auto mt-4" alt="pro img" />
                             <div className="card-body">
                                 <h5 className="card-title">My Portfolio Website</h5>
                                 <p className="card-text">This is My Portfolio , developed using React, HTML, Sass, Bootstrap, Where I share with you my Skills and Expertise, with a range of Projects that highlight my Abilities. </p>

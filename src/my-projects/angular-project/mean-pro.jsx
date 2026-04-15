@@ -10,7 +10,7 @@ function MeanPro(){
                 <h4 className="text-center mb-4 "> <u>MEAN App CRUD Operations</u> </h4>
                     <div className="card shadow pro-card-border transform-hover">
                         
-                        <img src="./assets/projects-images/angular-pro/mean-pro-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
+                        <img src={`${process.env.PUBLIC_URL}/assets/projects-images/angular-pro/mean-pro-img.svg`} className="card-img-top w-75 mx-auto mt-4" alt="pro img" />
                             <div className="card-body">
                                 <h5 className="card-title">Simple CRUD Operations using MEAN App</h5>
                                 <p className="card-text">This is Simple MEAN( MongoDB, ExpressJS, AngularJS, and NodeJS) App designed to Study how we can perform CRUD(Create, Read, Update, Delete) Operations. </p>
@@ -40,7 +40,7 @@ function MeanPro(){
                                 </h5>
 
                                 <div className="col-sm-5 p-0 row m-0 display-in-mb">
-                                    <img src="./assets/projects-images/angular-pro/mean-pro-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/projects-images/angular-pro/mean-pro-img.svg`} className="card-img-top w-100 mx-auto mt-4" alt="pro img" />
                                 </div>
                             <div className="col-sm-7 p-0 row m-0 modal-content-scroll">
                                 <b className=" mb-2">
@@ -71,7 +71,7 @@ function MeanPro(){
 
                             </div>
                             <div className="col-sm-5 p-0 row m-0 hide-in-mb">
-                                <img src="./assets/projects-images/angular-pro/mean-pro-img.svg" className="card-img-top w-100 mx-auto" alt="pro img" />
+                                <img src={`${process.env.PUBLIC_URL}/assets/projects-images/angular-pro/mean-pro-img.svg`} className="card-img-top w-100 mx-auto mt-4" alt="pro img" />
                             </div>
                             </div>
 
