@@ -10,7 +10,6 @@ function ReactPro(){
                 <h4 className="text-center mb-4 "> <u>My Portfolio using React</u> </h4>
                     <div className="card shadow pro-card-border transform-hover">
                         
-                        <img src="./assets/projects-images/react-pro/portfolio-img.svg" className="card-img-top w-75 mx-auto" alt="pro img" />
                         <img src={`${process.env.PUBLIC_URL}/assets/projects-images/react-pro/portfolio-img.svg`} className="card-img-top w-75 mx-auto mt-4" alt="pro img" />
                             <div className="card-body">
                                 <h5 className="card-title">My Portfolio Website</h5>
