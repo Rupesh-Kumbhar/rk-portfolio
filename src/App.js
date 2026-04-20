@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
 import Contact from './Contact/contact';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -12,6 +13,12 @@ import Skills from './skills/skills';
 import JobExperince from './JobExperience/jobExperience';
 
 function App() {
+
+  const [darkMode, setDarkMode] = useState(false);
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -30,6 +37,16 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <div className={darkMode ? "app dark" : "app light" }>
+        {/* <h1>{darkMode ? "Dark Mode " : "Light Mode "}</h1> */}
+
+        <button
+          type="button"
+          className={darkMode ? "btn btn-light" : "btn btn-dark"}
+          onClick={toggleDarkMode}
+        >
+          Toggle {darkMode ? "Light" : "Dark"} Mode
+        </button>
 
       <Navbar></Navbar>
       <Home></Home>
@@ -40,7 +57,7 @@ function App() {
       <Internship></Internship>
       <Contact></Contact>
       <Footer></Footer>
-      
+      </div>
     </div>
   );
 }

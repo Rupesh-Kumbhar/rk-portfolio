@@ -1,3 +1,29 @@
-h1{
-  color: #151875;
+h1 {
+  color: #151875; /* Default for light mode */
+}
+
+/* App.css */
+.app {
+  /* text-align: center; */
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+.app.light {
+  background: #ffffff;
+}
+
+.app.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+.app.dark h1 {
+  color: #eae9ac; /* Dark mode h1 color */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
