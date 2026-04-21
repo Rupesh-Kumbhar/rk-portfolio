@@ -93,9 +93,9 @@ function ReactPro(){
                         <div className="modal-footer justify-content-evenly">
                             <div className="col-sm-12 p-0 row m-0 not-display-flex-mb">
                                 <div className="col p-0 row m-0 width-mb-100">
-                                    <a class="" href="https://github.com/Rupesh-Kumbhar/rk-portfolio" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto mr-3" data-toggle="tooltip" data-placement="top" title="Open on GitHub" >GitHub</a>
-                                    <a class="" href="https://www.youtube.com/watch?v=9n2l8sXoQh0&t=1s" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto mr-3" data-toggle="tooltip" data-placement="top" title="Open on YouTube" >Demo Video</a>
-                                    <a class="" href="https://rupesh-kumbhar.github.io/rk-portfolio/" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto" data-toggle="tooltip" data-placement="top" title="Open Live Link" >Live Link</a>
+                                    <a href="https://github.com/Rupesh-Kumbhar/rk-portfolio" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto mr-3" data-toggle="tooltip" data-placement="top" title="Open on GitHub" >GitHub</a>
+                                    <a href="https://www.youtube.com/watch?v=9n2l8sXoQh0&t=1s" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto mr-3" data-toggle="tooltip" data-placement="top" title="Open on YouTube" >Demo Video</a>
+                                    <a href="https://rupesh-kumbhar.github.io/rk-portfolio/" target="_blank" rel="noopener noreferrer" role="button" type="button" className="btn modal-btn w-auto" data-toggle="tooltip" data-placement="top" title="Open Live Link" >Live Link</a>
                                 </div>
                                 <div className="col p-0 row m-0 justify-content-end width-mb-100">
                                     <button type="button" className="btn btn-secondary w-auto" data-bs-dismiss="modal">Close</button>
