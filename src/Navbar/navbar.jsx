@@ -49,7 +49,6 @@ function Navbar(){
                                     >Skills</Link>
                             </li>
 
-
                             <li className="nav-item d-flex">
                                 <Link to="projects" spy={true} smooth={true} offset={-100}
                                     duration={500} className="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} 
@@ -78,19 +77,6 @@ function Navbar(){
                                     >Contact</Link>
                             </li>
 
-
-                            {/* <li class="nav-item">
-                                <Link class="nav-link" to="home" smooth={true} duration={500}>Home</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="education" smooth={true} duration={500}>Education</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="internship" smooth={true} duration={500}>Internship</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="contact" smooth={true} duration={500}>Contact</Link>
-                            </li> */}
                         </ul>
                     </div>
                 </div>
