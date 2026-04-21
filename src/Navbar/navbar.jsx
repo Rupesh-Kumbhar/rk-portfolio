@@ -4,7 +4,7 @@ import './../Navbar/navbar.scss'
 // import { Link, animateScroll as scroll } from 'react-scroll';
 
 
-function Navbar(){
+function Navbar({ darkMode, toggleDarkMode }){
 
     const isMobile = window.innerWidth <= 768; 
 
@@ -81,6 +81,9 @@ function Navbar(){
                     </div>
                 </div>
             </nav>
+            <button type="button" className={`${darkMode ? "btn btn-light" : "btn btn-dark"} dark-mode-btn-pos`}  onClick={toggleDarkMode}>
+                Toggle {darkMode ? "Light" : "Dark"} Mode
+            </button>
         </div>
     );
 }
