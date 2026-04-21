@@ -40,15 +40,15 @@ function App() {
       <div className={darkMode ? "app dark" : "app light" }>
         {/* <h1>{darkMode ? "Dark Mode " : "Light Mode "}</h1> */}
 
-        <button
+        {/* <button
           type="button"
           className={darkMode ? "btn btn-light" : "btn btn-dark"}
           onClick={toggleDarkMode}
         >
           Toggle {darkMode ? "Light" : "Dark"} Mode
-        </button>
+        </button> */}
 
-      <Navbar></Navbar>
+      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} ></Navbar>
       <Home></Home>
       <Education></Education>
       <JobExperince></JobExperince>
