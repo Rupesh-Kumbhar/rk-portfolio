@@ -2,6 +2,48 @@ h1 {
   color: #151875; /* Default for light mode */
 }
 
+.skill-name {
+  font-size: 16px;
+  color: #151875; /* Default for light mode */
+}
+
+.app.dark .skill-name {
+  color: #eae9ac; /* Dark mode color */
+}
+
+a {
+    color: #000;
+    /* color: #FB2E86; */
+    text-decoration: none;
+}
+
+.app.dark a {
+  color: #d4d3d3;
+}
+
+
+/* Dark mode override */
+.app.dark .nav-link {
+  color: #d4d3d3; /* Dark mode nav-link color */
+}
+
+.app.dark  .nav-tabs .nav-item.show .nav-link, 
+.app.dark .nav-tabs .nav-link.active {
+    color: #ffffff;
+    border: 3px solid;
+    border-radius: 13px;
+    background-color: #070000;
+    border-color: #cbcbcb;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.app.dark .nav-tabs .nav-link:hover {
+    border-color: #cbcbcb;
+    border-radius: 13px;
+    isolation: isolate;
+}
+
 /* App.css */
 .app {
   /* text-align: center; */

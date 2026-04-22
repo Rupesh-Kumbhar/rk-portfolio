@@ -81,9 +81,22 @@ function Navbar({ darkMode, toggleDarkMode }){
                     </div>
                 </div>
             </nav>
-            <button type="button" className={`${darkMode ? "btn btn-light" : "btn btn-dark"} dark-mode-btn-pos`}  onClick={toggleDarkMode}>
+            {/* <button type="button" className={`${darkMode ? "btn btn-light" : "btn btn-dark"} dark-mode-btn-pos`}  onClick={toggleDarkMode}>
                 Toggle {darkMode ? "Light" : "Dark"} Mode
-            </button>
+            </button> */}
+
+            <div className="form-check form-switch dark-mode-btn-pos">
+                <input
+                    className="form-check-input"
+                    type="checkbox"
+                    id="flexSwitchCheckDefault"
+                    onChange={toggleDarkMode}
+                    checked={darkMode}
+                />
+                <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+                    {darkMode ? "Light" : "Dark"} Mode
+                </label>
+            </div>
         </div>
     );
 }
