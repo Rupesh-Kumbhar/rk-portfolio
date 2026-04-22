@@ -102,8 +102,13 @@ a {
 // }
 
 .dark-mode-btn-pos{
-    position: absolute;
-    right: 0;
+    // position: absolute;
+    // right: 0;
+
+    position: fixed;
+    right: 20px;
+    top: 70px;
+    z-index: 1000;
 }
 
 
