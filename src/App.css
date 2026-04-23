@@ -8,7 +8,7 @@ h1 {
 }
 
 .app.dark .skill-name {
-  color: #eae9ac; /* Dark mode color */
+  color: #d4d3d3; /* Dark mode color */
 }
 
 a {
@@ -43,7 +43,71 @@ a {
     border-radius: 13px;
     isolation: isolate;
 }
+.app.dark .intern-btn {
+    color: #1e031d;
+    background-color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
 
+/* .app.dark .typing-slider{
+  $slider-name: typing-slider;
+  $slides: 3;
+  $typing-duration: 4s;
+  $tab-letters: 19 25 15; //number of characters in each paragraph
+  $slider-font-size: 16px;
+  $background: #FFF;
+} */
+
+.app.dark .typing-slider {
+  font-size: 16px;
+  background-color: #000;
+  color: #bcc3d2;
+  animation: typing-slider-animation 4s infinite;
+  
+}
+
+.app.dark .typing-slider.slide-1 {
+  width: 19ch;
+}
+
+.app.dark .typing-slider.slide-2 {
+  width: 25ch;
+}
+
+.app.dark .typing-slider.slide-3 {
+  width: 15ch;
+}
+
+.app.dark .typing-slider p:nth-child(1)::after {
+  animation-delay: 0s;
+  background-color: #000;
+  animation-timing-function: steps(19), step-end;
+}
+
+.app.dark .typing-slider p:nth-child(2)::after {
+  animation-delay: 4s;
+  background-color: #000;
+  animation-timing-function: steps(25), step-end;
+}
+
+.app.dark .typing-slider p:nth-child(3)::after {
+  animation-delay: 8s;
+  background-color: #000;
+  animation-timing-function: steps(15), step-end;
+}
+
+/* .app.dark .typing-slider p::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-left: 3px solid rgb(38, 161, 83);
+    background-color: #FFF;
+    animation: typing 4s infinite, cursor 1s infinite;
+} */
 /* App.css */
 .app {
   /* text-align: center; */
