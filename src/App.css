@@ -133,3 +133,31 @@ button {
   padding: 10px 20px;
   cursor: pointer;
 }
+
+.app.dark .navbar-light .navbar-nav .nav-link.active,
+.app.dark .navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff; /* Dark mode active link color */
+  border-bottom: 2px solid #cbcbcb; /* Optional: match your tab styling */
+  border-radius: 0px;         /* Optional: consistent rounded corners */
+  background-color: #070000;  /* Optional: dark background highlight */
+  font-weight: 600;
+}
+
+/* Dark mode navbar override */
+.app.dark .navbar {
+  background-color: #121212 !important; /* Dark background */
+  color: #ffffff; /* Default text color */
+}
+
+.app.dark .navbar-light .navbar-nav .nav-link {
+  color: #d4d3d3; /* Normal nav link color in dark mode */
+}
+
+.app.dark .navbar-light .navbar-nav .nav-link.active,
+.app.dark .navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff; /* Active link text color */
+  background-color: #070000; /* Highlight background */
+  border-bottom: 2px solid #cbcbcb;
+  border-radius: 0px;
+  font-weight: 600;
+}
