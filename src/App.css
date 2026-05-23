@@ -98,6 +98,33 @@ a {
   animation-timing-function: steps(15), step-end;
 }
 
+.app.dark .resume-btn{
+    color: black;
+    background-color: #e4e4e4;
+}
+
+.app.dark h4{
+    color: #f0f8ff;
+}
+
+.app.dark .shadow-lg {
+    /* box-shadow: 0 1rem 3rem rgb(251 251 251 / 19%) !important; */
+    box-shadow: inset 0px 0rem 4rem 5px rgb(251 251 251 / 19%) !important;
+}
+
+/* .app.dark .card-title {
+    margin-bottom: .5rem;
+    color: #000000;
+}
+.app.dark .card-body p{
+    color: #000;
+} */
+
+.app.dark .pro-card-border{
+  background-color: #000;
+  box-shadow: inset 0px 15rem 10rem 15px rgb(251 251 251 / 19%) !important;
+}
+
 /* .app.dark .typing-slider p::after {
     content: "";
     position: absolute;
