@@ -120,11 +120,63 @@ a {
     color: #000;
 } */
 
+.modal-content-scroll {
+  overflow-y: auto;
+  max-height: 400px;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #0d6efd, #6610f2);
+    border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  scrollbar-width: thin;
+  /* scrollbar-color: #000000 transparent; */
+  scrollbar-color: #8a8a8a #0000000f;
+}
+
 .app.dark .pro-card-border{
   background-color: #000;
   box-shadow: inset 0px 15rem 10rem 15px rgb(251 251 251 / 19%) !important;
 }
 
+.app.dark .modal-dialog-scrollable .modal-content {
+    max-height: 100%;
+    overflow: hidden;
+    border: none;
+    box-shadow: inset 0px 18rem 10rem 15px rgb(251 251 251 / 19%) !important;
+    background: #000000;
+}
+.app.dark .sub-heading-pro {
+    color: #FFF;
+}
+.app.dark .modal-content-scroll {
+  overflow-y: auto;
+  max-height: 400px;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #0d6efd, #6610f2);
+    border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff transparent;
+}
 /* .app.dark .typing-slider p::after {
     content: "";
     position: absolute;
