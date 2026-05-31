@@ -68,14 +68,14 @@ function Navbar({ darkMode, toggleDarkMode }){
                                     >Internship</Link>
                             </li>
 
-                            <li className="nav-item d-flex">
+                            {/* <li className="nav-item d-flex">
                                 <Link to="contact" spy={true} smooth={true} offset={-100}
                                     duration={500} className="nav-link navbar-link-css" aria-current="page" href="#" style={{ fontWeight: 600, fontSize: '20px', margin: 'auto', padding: '0.5rem' }} {...(isMobile ? {
                                         'data-bs-toggle': 'collapse',
                                         'data-bs-target': '#navbarSupportedContent'
                                     } : {})}
                                     >Contact</Link>
-                            </li>
+                            </li> */}
 
                         </ul>
                     </div>
