@@ -20,7 +20,8 @@ function Footer() {
               </div>
 
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
-                <a href='https://github.com/rupeshk2001' target='_blank' rel="noopener noreferrer" className="d-flex">
+                {/* https://github.com/rupeshk2001 */}
+                <a href='https://github.com/Rupesh-Kumbhar' target='_blank' rel="noopener noreferrer" className="d-flex">
                   <img src={process.env.PUBLIC_URL + '/assets/logos/github.svg'} className="social-logos mr-2" alt="Logo" />
                   <span className="my-2">GitHub</span>
                 </a>
