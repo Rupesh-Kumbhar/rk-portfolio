@@ -56,7 +56,7 @@ function App() {
       <Projects></Projects>
       <Internship></Internship>
       <Contact></Contact>
-      <Footer></Footer>
+      <Footer darkMode={darkMode}></Footer>
       </div>
     </div>
   );
