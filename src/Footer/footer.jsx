@@ -1,7 +1,7 @@
 import React from "react";
 import './../Footer/footer.css'
 
-function Footer() {
+function Footer({ darkMode }) {
     return(
         <div className="col-sm-12 p-0 mt-5">
         <footer className="footer">
@@ -20,9 +20,9 @@ function Footer() {
               </div>
 
               <div className="col-sm-3 p-0 d-flex justify-content-center py-2">
-                {/* https://github.com/rupeshk2001 */}
-                <a href='https://github.com/Rupesh-Kumbhar' target='_blank' rel="noopener noreferrer" className="d-flex">
-                  <img src={process.env.PUBLIC_URL + '/assets/logos/github.svg'} className="social-logos mr-2" alt="Logo" />
+                <a href="https://github.com/Rupesh-Kumbhar" target="_blank" rel="noopener noreferrer" className="d-flex">
+                  <img src={ process.env.PUBLIC_URL + (darkMode ? "/assets/logos/github-white-icon.svg" : "/assets/logos/github.svg")}
+                    className="social-logos mr-2" alt="GitHub dark background" />
                   <span className="my-2">GitHub</span>
                 </a>
               </div>
