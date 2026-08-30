@@ -2,7 +2,7 @@ import React from "react";
 import "./../Home/home.scss";
 
 function openPdfInNewTab() {
-    window.open(`${process.env.PUBLIC_URL}/assets/my-resume/CV_2025.pdf`, '_blank');
+    window.open(`${process.env.PUBLIC_URL}/assets/my-resume/Rupesh_Kumbhar.pdf`, '_blank');
 }
 
 function Home() {
